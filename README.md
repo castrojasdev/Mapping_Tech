@@ -1,8 +1,8 @@
 **Mapping Technology**
 
-**Name** : Balaji K
+**Name** : CASTRO JAS
 
-**Reg.no** : 19MIC0001
+**Reg.no** : 19MIC0040
 
 
 **Login\_Page**
