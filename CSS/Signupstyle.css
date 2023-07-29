@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.signup-card{
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+}
+.backimage{
+    background-image: url("regg.jpg");
+    background-size: cover;
+    
+    width: 60%;
+}
+
+.container {
+    background-color: white;
+    position: relative;
+    width: 600px;
+    height: 84%;
+    border-radius: 20px;
+    padding-top: 0%;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 60px;
+    transform: translate(20vh,50px);
+    background-color: rgb(240, 240, 240);
+    border-radius: 50px;
+    box-shadow:  -13px -13px 10px rgb(247, 247, 247),
+                 13px 13px 10px rgb(136, 136, 136);
+    margin: 0px 0 0 -64px;
+  }
+  .row {
+    display: flex;
+  }
+  .colum1 input{
+     width: 250px;
+  }
+  .colum2{
+    margin-left: 60px;
+  }
+
+ h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 40px;
+    color: rgb(79, 80, 246);
+
+
+}    
+select{
+    height: 50px;
+}
+.inputs {
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  label, input, button, select {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  label {
+    margin-bottom: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  
+  label:nth-of-type(2) {
+    margin-top: 12px;
+  }
+  
+  input::placeholder {
+    color: gray;
+  }
+  
+  input,select {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
+  button {
+    background-color: rgb(79, 80, 246);
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+    margin-top: 30px;
+    transform: translate(80px);
+  }
+  
+  button:hover {
+    color: rgb(79, 80, 246);
+    background-color: white;
+  }
+  h4{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0%;
+      letter-spacing: 1px;
+      font-size: 12px;
+    }
+ h4 a{
+     text-decoration: none;
+ }

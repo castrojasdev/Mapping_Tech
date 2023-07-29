@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Add a raster image to a map layer</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+	mapboxgl.accessToken = '';
+const map = new mapboxgl.Map({
+container: 'map',
+
+center: [12.973245056669775, 79.15772346227361],
+// Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+style: 'mapbox://styles/mapbox/dark-v10'
+});
+ 
+map.on('load', () => {
+map.addSource('radar', {
+'type': 'image',
+'url': 'https://docs.mapbox.com/mapbox-gl-js/assets/radar.gif',
+'coordinates': [
+[12.973215171234866, 79.15729644394166],
+[12.972784552423505, 79.15751735244777],
+[12.973615628133304, 79.15813190205392],
+[12.9729996546383, 79.1583275545816]
+]
+});
+map.addLayer({
+id: 'radar-layer',
+'type': 'raster',
+'source': 'radar',
+'paint': {
+'raster-fade-duration': 0
+}
+});
+});
+</script>
+ 
+</body>
+</html>

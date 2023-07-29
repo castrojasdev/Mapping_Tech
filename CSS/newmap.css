@@ -1,0 +1,884 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  body{
+  }
+  nav{
+    height: 100px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 60px;
+    line-height: 100px;
+    padding: 0 100px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    filter: drop-shadow(0px 0px 10px black);
+  }
+  nav ul{
+    float: right;
+    margin-right: 80px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 10px 10px ;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px ;
+    border-radius: 3px;font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+    border-radius: 40px;
+  }
+   .nav a:hover{
+    background: white;
+    color: black;
+    transition: .5s;
+    box-shadow: 0px 0px 10px black;
+  }
+  .checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 100px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 1290px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 40px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+    
+  }
+  @media (max-width: 950px){
+    label.logo{
+        font-size: 25px;
+        padding-left: 30px;
+      }
+    .checkbtn{
+      display: block;
+    
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  .newbox1{
+      margin-top: 20px;
+      padding: 0px;
+    height: 180vh;
+    background: url("images/map2.jpg");
+    background-size: cover;
+}
+.topic h1{
+  font-size: 150px;
+  letter-spacing: 5px;
+  padding-top: 30px;
+  line-height: 130px;
+  margin-left: 90px;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 1200px){
+    .newbox1{
+        height: 70vh;
+    }
+    .newsuggestion a{
+      font-size: 50px;
+    }
+    .newbox4 .newsuggestion{
+      padding-top: 10px;
+    }
+    .newbox3 .newcard1 p{
+      line-height: 25px;
+    }.newbox3 .newcard2 p{
+      line-height: 25px;
+    }.newbox3 .newcard3 p{
+      line-height: 25px;
+    }.newbox3 .newcard4 p{
+      line-height: 25px;
+    }
+    .newbox3 .card11{
+      background-image: url("images/Balaji.jpg");
+      height: 100px;
+      width: 100px;
+      background-size: cover;
+    margin-left: 20%;
+    border-radius: 50%;
+    }
+    
+    .newbox3 .card22{
+      background-image: url("images/Castro.jpg");
+      height: 100px;
+      width: 100px;
+      background-size: cover;
+    margin-left: 20%;
+    border-radius: 50%;
+    }
+    
+    
+    .newbox3 .card33{
+      background-image: url("images/Nandha.jpg");
+      height: 100px;
+      width: 100px;
+      background-size: cover;
+    margin-left: 20%;
+    border-radius: 50%;
+    }
+    
+    
+    .newbox3 .card44{
+      background-image: url("images/Muzzamil.jpg");
+      height: 100px;
+      width: 100px;
+      background-size: cover;
+    margin-left: 20%;
+    border-radius: 50%;
+    }
+    .hotels{
+      background-image: url("images/hotel.jpg");
+      height: 110px;
+      width: 200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+    .car{
+      background-image: url("images/car1.jpg");
+      height: 110px;
+      width: 200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+    .bike{
+      background-image: url("images/bike.jpg");
+      height: 170px;
+      width: 200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 30px;margin-top: -20px;
+    }
+    .newbox3 .newhead h2{
+      font-weight: 900;
+      font-size: 80px;
+    }
+    .topic h1{
+      padding-top: 20px;
+      margin-left: 20px;
+      font-size: 80px;
+      line-height: 70px;
+    }
+    .newbox2 .newbooking{
+      font-size: 90px;
+    
+    }
+.newbox2::after{
+ display: none;
+}
+.newbox2::before{
+  display: none;
+}
+  }
+@media (max-width: 950px){
+.newbox1{
+    height: 70vh;
+    
+}
+.newbox4 p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 10px;
+}
+.newsuggestion a{
+  font-size: 30px;
+  padding-top: 20px;
+}
+.newbox3 .newcard2:hover{
+  height: 500px;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+  transition: 1s ease;
+  border-radius: 30px;
+  
+  border: 2px solid white;
+}
+.newbox3 .newcard4:hover{
+  height: 500px;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+  transition: 1s ease;
+  border-radius: 30px;
+  
+  border: 2px solid white;
+}
+.newbox3 .newcard3:hover{
+  height: 500px;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+  transition: 1s ease;
+  border-radius: 30px;
+  
+  border: 2px solid white;
+}
+.newbox3 .newcard1:hover{
+  height: 500px;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+  transition: 1s ease;
+  border-radius: 30px;
+  
+  border: 2px solid white;
+}
+
+.newbox3 .card11{
+  background-image: url("images/Balaji.jpg");
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+margin-left: 10%;
+border-radius: 50%;
+}
+
+.newbox3 .card22{
+  background-image: url("images/Castro.jpg");
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+margin-left: 20%;
+border-radius: 50%;
+}
+
+
+.newbox3 .card33{
+  background-image: url("images/Nandha.jpg");
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+margin-left: 16%;
+border-radius: 50%;
+}
+
+
+.newbox3 .card44{
+  background-image: url("images/Muzzamil.jpg");
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+margin-left: 10%;
+border-radius: 50%;
+}
+.newbox3 .newcards{
+  margin: 10px;
+  
+}
+.newbox3 .newcard1{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  align-items: center;
+  margin: 0px;
+  border: none;
+}
+.newbox3 .newcard2{
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  align-items: center;
+  
+  border: none;
+}
+.newbox3 .newcard3{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  align-items: center;
+  border: none;
+}
+.newbox3 .newcard4{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  align-items: center;
+  border: none;
+}
+.newimages .hotels{
+  background-image: url("images/hotel.jpg");
+  height: 110px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.newimages .car{
+  background-image: url("images/car1.jpg");
+  height: 110px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.newimages .bike{
+  background-image: url("images/bike.jpg");
+  height: 170px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;margin-top: -20px;
+}
+.newbox2 .newbooking{
+  font-size: 65px;
+
+}
+
+.newbox3 .newhead h2{
+  font-size: 65px;
+  font-weight: 900;
+}
+.topic h1{
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 65px;
+  line-height: 45px;
+}
+nav ul li a{
+  padding: 5px 10px ;
+  font-size: 15px;
+  margin-right: 35px;
+}
+ul{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 80px;
+  right: -100%;
+  text-align: right;
+  transition: all .5s;
+}
+nav ul li{
+  display: block;
+  margin: 40px 0;
+  line-height: 10px;
+}
+}
+
+@media (max-width: 450px){
+  nav{
+    height: 80px;
+  }
+  
+.newbox4 p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 5px;
+}
+.newsuggestion a{
+  font-size: 16px;
+  padding: 10px;
+}
+ .newsuggestion{
+  padding-top: 0px;
+}
+  .newbox3 .newcard2:hover{
+    height: 370px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    transition: 1s ease;
+    border-radius: 30px;
+    
+    border: 2px solid white;
+  }
+  .newbox3 .newcard4:hover{
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    transition: 1s ease;
+    border-radius: 30px;
+    
+    border: 2px solid white;
+  }
+  .newbox3 .newcard3:hover{
+    height: 370px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    transition: 1s ease;
+    border-radius: 30px;
+    
+    border: 2px solid white;
+  }
+  .newbox3 .newcard1:hover{
+    height: 370px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    transition: 1s ease;
+    border-radius: 30px;
+    
+    border: 2px solid white;
+  }
+  
+  .newbox3 .card11{
+    background-image: url("images/Balaji.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+  margin-left: 30%;
+  border-radius: 50%;
+  }
+  
+  .newbox3 .card22{
+    background-image: url("images/Castro.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+  margin-left: 30%;
+  border-radius: 50%;
+  }
+  
+  
+  .newbox3 .card33{
+    background-image: url("images/Nandha.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+  margin-left: 30%;
+  border-radius: 50%;
+  }
+  
+  
+  .newbox3 .card44{
+    background-image: url("images/Muzzamil.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+  margin-left: 30%;
+  border-radius: 50%;
+  }
+  .newbox3 .newcards{
+    padding-bottom: 10px;
+    display: block;
+    
+  }
+  .newbox3 .newcard1{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    align-items: center;
+    margin: 0px;
+    border: none;
+  }
+  .newbox3 .newcard2{
+    height: 200px;
+    width: 250px;
+    overflow: hidden;
+    align-items: center;
+    
+    border: none;
+  }
+  .newbox3 .newcard3{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    align-items: center;
+    border: none;
+  }
+  .newbox3 .newcard4{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    align-items: center;
+    border: none;
+  }
+  .newimages .hotels{
+    background-image: url("images/hotel.jpg");
+    height: 110px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .newimages .car{
+    background-image: url("images/car1.jpg");
+    height: 110px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .newimages .bike{
+    background-image: url("images/bike.jpg");
+    height: 170px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;margin-top: -20px;
+  }
+  .newbox3 .newhead h2{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .checkbtn{
+    font-size: 20px;
+  }
+.newbox2 .newlist a{
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.newbox2 .newlist a::after{
+  height: 2px;
+}
+.newbox2 .newimages{
+  display: none;
+}
+    .newbox1{
+        height: 53vh;
+    }
+    .topic h1{
+      padding-top: 20px;
+      margin-left: 20px;
+      font-size: 20px;
+      line-height: 5px;
+    }
+    .newbox2 .newbooking{
+      font-size: 20px;
+    
+    }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 60px;
+    right: -100%;
+    text-align: right;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 40px 0;
+    line-height: 0px;
+  }
+  nav ul li a{
+    padding: 5px 10px ;
+    font-size: 10px;
+    margin-right: 35px;
+  }
+   }
+  
+.newbox2::after{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgb(234, 0, 255), rgb(255, 0, 0));
+  clip-path: circle(15% at left 50%);
+  top: 160vh;
+}
+.newbox2::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgb(251, 255, 0), rgb(255, 251, 0),rgb(207, 15, 255));
+  clip-path: circle(10% at right 54%);
+  top: 200vh;
+}
+.newbooking{
+  text-align: center;
+  font-size: 140px;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 5px;
+
+}
+.newlist li{
+  display: inline-flex;
+}
+.newlist{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.newlist a{
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding: 9px 20px;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.newlist a::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  left: 0px;
+  bottom: 0px;
+  background-color: black;
+  transform: scale(0, 1);
+  transition: transform 0.3s ease-in;
+
+}
+.newlist a:hover::after{
+  transform: scale(1,1);
+}
+.newimages{
+  display: flex;
+  justify-content: space-around;
+
+}
+.hotels{
+  background-image: url("images/hotel.jpg");
+  height: 200px;
+  width: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.car{
+  background-image: url("images/car1.jpg");
+  height: 220px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.bike{
+  background-image: url("images/bike.jpg");
+  height: 270px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;margin-top: -20px;
+}
+
+
+.card11{
+  background-image: url("images/Balaji.jpg");
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+margin-left: 23%;
+border-radius: 50%;
+}
+
+.card22{
+  background-image: url("images/Castro.jpg");
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+margin-left: 23%;
+border-radius: 50%;
+}
+
+.card33{
+  background-image: url("images/Nandha.jpg");
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+margin-left: 23%;
+border-radius: 50%;
+}
+
+.card44{
+  background-image: url("images/Muzzamil.jpg");
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+margin-left: 23%;
+border-radius: 50%;
+}
+
+.newbox3{
+  background-image: linear-gradient(white,blanchedalmond);
+}
+.newbox3 .newhead{
+  text-align: center;
+  font-size: 120px;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 5px;
+}
+.newcards{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 30px;
+  letter-spacing: 2px;
+  position:relative;
+  margin: 0px 50px ;
+  padding-bottom: 15px;
+}
+.newcard1{
+  height: 500px;
+  width: 400px;
+  margin: 20px ;
+  padding: 20px;
+  overflow: hidden;
+  transition: 1s ease;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+.newcard1:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgb(173, 173, 173);
+  background-color: white;
+}
+.newcard1 img{
+  border-radius: 50%;
+}
+.newcard1 h3{
+  font-size: 25px;
+  margin-top: 15px;
+}
+.newcard2{
+  height: 500px;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+  transition: 1s ease;
+  border-radius: 30px;
+  
+  border: 2px solid white;
+}
+
+.newcard2:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgb(173, 173, 173);
+  
+  background-color: white;
+}
+.newcard2 img{
+  border-radius: 50%;
+}
+.newcard2 h3{
+  font-size: 25px;
+  margin-top: 15px;
+}
+.newcard3{
+  height: 500px;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+  transition: 1s ease;
+  border-radius: 30px;
+  
+  border: 2px solid white;
+}
+
+.newcard3:hover{background-color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgb(173, 173, 173);
+}
+.newcard3 img{
+  border-radius: 50%;
+}
+.newcard3 h3{
+  font-size: 25px;
+  margin-top: 15px;
+}
+.newcard4{
+  height: 500px;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+  transition: 1s ease;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+.newcard4:hover{background-color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgb(173, 173, 173);
+}
+.newcard4 img{
+  border-radius: 50%;
+}
+.newcard4 h3{
+  font-size: 25px;
+  margin-top: 15px;
+}
+.newbox4{
+  background-color: blanchedalmond
+}
+.newsuggestion {
+  font-size: 70px;
+  text-decoration: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 50px;
+}
+.newsuggestion a{
+  border: 2px solid white;
+  color: black;
+  transition: .5s;
+  font-weight: 700;
+  padding: 20px 50px;
+}
+.newsuggestion a:hover{
+  box-shadow: 0px 0px 20px rgb(173, 173, 173);
+  border-radius: 20px;
+  transition: 1s ease;
+  background-color: white;
+}
+.newbox4 p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: bold;
+}

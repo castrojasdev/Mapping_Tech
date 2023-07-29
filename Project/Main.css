@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.navigation{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(40, 40, 75);
+}
+
+li a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:600 ;
+    color: rgb(255, 248, 220);
+    font-size: medium;
+    text-decoration:none;
+}
+header{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0px;
+}
+.logo {
+       left: 0;
+   cursor: pointer;
+   width: 80px;
+   margin:0;
+
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+li :hover
+{
+    background-color: darkgoldenrod;
+}
+
+body{
+    background-image: url('Map.jpg');
+   background-repeat: no-repeat;
+   background-size:100em 48em;
+}
+
+    forms {
+        display: flex;
+        border: 4px dotted blue;
+        padding: 14px;
+        width: 43%;
+        margin: 91px 0px 0px 87px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+  
+  input[id=from]
+  {
+  
+  border : 2px solid red;
+  width : 250px;
+  height : 29px;
+    margin: 0px 0px 20px 0px;
+  }
+  input[id=to]
+  {
+    border : 2px solid red;
+  width : 250px;
+    height : 29px;
+    margin-left : 80px;
+  }
+.mmm
+{
+    margin-top:628px;
+}
+.box
+{
+    width: 698px;
+    height: 666px;
+    border : 2px solid blue;
+    background-color: white;
+    margin-left: 86px;
+
+}
+
+body{
+    background-color : yellow;
+}
+i{
+ font-size: 60px;
+ padding: 0px; 
+ margin: 0px -80px 0px 0px;
+
+}
+.fa, .fas {
+    font-weight: 900;
+    margin: -16px -72px 0px 12px;
+    font-size: 51px;
+
+}
+.fa-long-arrow-alt-left
+{
+    font-weight: 900;
+    margin: 1px -64px 0px 25px;
+
+    font-size: 51px;
+}
+.box1 {display: flex;
+    border: 3px dotted blue;
+    width: 119%;
+    margin-left: -103px;
+    justify-content: space-around;
+    position: relative;
+
+   
+}
+.box1>div
+{
+    border : 2px solid black;
+    width: 25%;
+    height: 30%;
+}
+
+.box11
+{
+    border: 2px solid black;
+    width: 77.2%;
+    padding: 12%;
+    height: 32px;
+    margin-left: -10px;
+    background-color: White;
+    margin-top: -88px;
+}
+
+.box2 {
+    display: flex;
+    
+    border: 4px dotted blue;
+    width: 361px;
+    height: 476px;
+    align: right;    margin: -42% -1px 0% 59%;
+
+    
+}
+.fa-cloud-sun-rain
+{
+    color : blue;
+    margin-top : 7px;
+}
+ .fa-traffic-light{
+    color : green;
+    margin: 75px 0px 0px -159px;
+}
+.fa-utensils
+{
+    margin: 144px 0px 0px -185px;
+
+}
+.fa-route
+{
+    margin: 214px 0px 0px -261px;
+    padding;0px;
+
+}
+
+p.heade{
+    display: flexbox;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin: -148px 0px 0px 0px;
+    text-align: center;
+}
+
+
+
+hr {
+    width: 15%;
+    height: 3px;
+    margin-left: 485px;
+    margin-top: 12px;
+    background-color: #b7d0e2;
+
+  }
+  
+  .fa-car{
+      border : 2px dotted blue;
+      padding: 0px;;
+    margin: 0px 0px 0px -164px;
+  }
+  .fa-hotel{
+    margin: 0px 348px 0px 0px;
+
+}
+.ali{
+
+    display: flex;
+    flex-direction: row;
+    border: 2px dotted yellow;
+}
+p.h{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+   
+ 
+  }
+  table{
+      border : 3px dotted black;
+  }
+
+  .tt{
+     border : 2px dotted blue;
+     width : 25%;
+  }
+  .mapp
+  {
+    margin: -109px 0px -85px 84px;
+
+    font-size: 7em;
+      font-weight: 100;
+      font-family: 'Lobster', cursive;
+  }
+  .fa-map-marker-alt
+  {
+    margin: 17px 0px 0px 22px;
+    font-size: 77px;
+  }
+.ins
+{
+    margin: 11% 0px 0px 67px;
+
+    font-size: 3em;
+      font-weight: 100;
+      font-family: 'Montserrat', sans-serif;
+
+}
+.second
+{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}

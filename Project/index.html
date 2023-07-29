@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title> MapStory</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="stylesheet" href="index_css.css">
+    <script id="mapp" src="https://api.mapbox.com/styles/v1/joebgreat/cl88cb95z008t14o6crks8c2n.html?title=view&access_token=pk.eyJ1Ijoiam9lYmdyZWF0IiwiYSI6ImNsODkxbnNpdTAyeDczd2xhMWJ1dmdkcnQifQ.gx5-HsP1-dGLjaQHZ048Jw&zoomwheel=true&fresh=true#18.08/12.972805/79.157702"></script>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    
+</head>
+<body>
+    <span id="one"></span>
+    <span id="two"></span>
+    <section id="Main">
+        <div id="map"></div>
+        <div id="mapInset" style="display:none;"></div>
+        <div id="story"></div>
+        <div id="mapp"></div>
+    
+        <script src="./config.js"></script>
+    </section>
+
+  <!--  <section id="Main1">
+        <div id="map"></div>
+        <div id="mapInset"></div>
+        <div id="story"></div>
+        <div id="mapp"></div>
+    
+        <script src="./config1.js"></script>
+    </section>
+-->
+    <script >
+        document.getElementById('Main').style="display: none;";
+        const first = localStorage.getItem('one');
+        const second = localStorage.getItem('two');
+
+        var a = document.getElementById('one').textContent;
+        var b = document.getElementById('two').textContent;
+
+        a = first;
+        b = second;
+
+        if (a == "" && b == ""){
+
+            document.getElementById('Main').style="display:block;";
+           
+        }
+        else if(a == "MB" && b == "MBB")
+        {
+            document.getElementById('Main').style="display:none;";
+            window.location.href="MB_MBB.html";
+        }
+        else if(a == "MB" && b == "PRP")
+        {
+            document.getElementById('Main').style="display:none;";
+            window.location.href="MB_PRP.html";
+        }
+        else if(a == "MB" && b == "SMV")
+        {
+            document.getElementById('Main').style="display:none;";
+            window.location.href="MB_SMV.html";
+        }
+        else if(a == "MB" && b == "TT")
+        {
+            document.getElementById('Main').style="display:none;";
+            window.location.href="MB_TT.html";
+        }
+        else if(a == "MB" && b == "SJT")
+        {
+            document.getElementById('Main').style="display:none;";
+            window.location.href="MB_SJT.html";
+        }
+        else if(a == "A block" && b == "P block"){
+
+            document.getElementById('Main').style="display:none;";
+            window.location.href="A_P_B.html";
+        }
+        else if(a == "P block" && b == "A block"){
+
+            document.getElementById('Main').style="display:none;";
+            window.location.href="A_P_Block.html";
+        }
+        else if(a == "A block" && b == "K block")
+        {
+            document.getElementById('Main').style="display:none;";
+            window.location.href="index2.html";
+        }
+        
+        else{
+
+            document.getElementById('Main').style="display: block;";
+        }
+    </script>
+    <!--
+<script>
+    var a = document.getElementById("ress");
+    var b = document.getElementById("ress");
+    a = localStorage.getItem("From");
+    b = localStorage.getItem("To");
+    if(a == "Vellore" && b == "Tiruvannamalai"){
+        document.getElementById('Main').style="display: none;";
+    }
+
+</script>-->
+<script>
+    
+</script>
+        
+       <script src="./Story_js.js"></script>
+</div>
+</body>
+</html>

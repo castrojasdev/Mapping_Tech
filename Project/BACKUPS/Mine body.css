@@ -1,0 +1,32 @@
+body > #Bdy
+{
+
+    background: rgb(32,198,200);
+background: linear-gradient(165deg, rgba(32,198,200,1) 25%, rgba(253,178,45,1) 94%);
+
+    height: 100%;
+    width: 100%;
+    filter:url(#round);
+    
+    clip-path: polygon(50% 0%, 100% 0, 100% 50%, 0 83%, 0% 43%, 0 0);
+
+    
+    position:absolute;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    z-index: -1;
+
+}
+body 
+{
+    background: rgb(0,0,0);
+    background: linear-gradient(338deg, rgba(0,0,0,1) 8%, rgba(32,37,37,1) 26%, rgba(20,189,223,1) 87%);
+   box-shadow: 0 0 5px 2px #282a2d;
+  
+   background-color: white;
+   background-size: 1600px 742px;
+   background-repeat: no-repeat;
+ 
+   
+
+}

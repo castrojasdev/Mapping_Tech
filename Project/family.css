@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Stick+No+Bills&display=swap');
+.navigation{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(40, 40, 75);
+}
+
+h1{
+
+    font-size: 500%;
+    text-align: center;
+    color: rgb(12, 13, 14);
+}
+
+body 
+{
+    background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+   box-shadow: 0 0 5px 2px #282a2d;
+  
+   background-color: white;
+   background-size: 1600px 742px;
+   background-repeat: no-repeat;
+   
+
+}
+img{
+
+    border-radius: 90%;
+    border-style: solid;
+    margin-top: 40px;
+    margin-bottom: 70px;
+margin-left: 30px;
+width: 30%;
+}
+h2.one
+{
+    
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 356%;
+    color: cornsilk;
+    margin: -434px 1px -3px 620px;
+
+}
+p.first
+{
+    font-family: 'Lobster', cursive;
+    font-family: 'Stick No Bills', sans-serif;
+    color: cornsilk;
+    font-size: 163%;
+    margin: 0px 1px 0px 620px;
+
+}
+tr.o{
+
+    align-items: right;
+}

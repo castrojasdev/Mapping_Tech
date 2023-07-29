@@ -1,0 +1,27 @@
+https://docs.mapbox.com/mapbox-gl-js/example/mapbox-gl-directions/
+
+
+
+
+<div class = cut-off>
+   
+   <form id="formm" autocomplete="off" target="_blank">
+      <div class="cutoff">
+         <div>
+            <input type="text" id="state0"  placeholder="from" />
+            <input type="text" id="state1"  placeholder="to" />
+          </div>
+          <ul class="list"></ul>
+          <script src="scripts_one.js"></script>
+          <script src="scripts.js"></script>
+          
+      </div>
+      
+     
+            <label class = "cutoff" id="arrow">→</label>
+            <label class = "cutoff">
+
+               <button type="submit" onclick="get();" value="equal" id="res">»</button>
+         </label>
+   </form>
+       </div>

@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    color: rgb(17, 33, 255);
+    padding: 30px 20px;
+    text-align: center;
+    font-weight: 800;
+
+    font-family: 'PT Serif', serif;
+}
+
+header h1 {
+    font-variant: small-caps;
+    font-size: 70px;
+    margin-bottom: 20px;
+    
+}
+header h5 {
+    font-variant: small-caps;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.switch-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.switch-toggle a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.taxi{
+    width: 200px;
+}
+.rentals{
+    width: 200px;
+    
+    border-bottom: 2px black solid;
+}
+.taxi-booking {
+    background-color: rgb(199, 200, 255);
+    
+    box-shadow:  -13px -13px 10px rgb(255, 254, 254),
+    13px 13px 10px rgb(163, 163, 163);
+    width: 700px;
+    height: 610px;
+    margin: auto ;
+    padding: 30px;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.taxi-specialities {
+    text-align: center;
+    margin: 20px auto;
+    line-height: 2;
+    font-size: 25px;
+}
+
+.taxi-specialities p {
+    font-size: 12px;
+}
+select{
+    height: 60px;
+    width: 99%;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+}
+.dates input{
+    height: 60px;
+    width: 99%;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+}
+.submit-btn {
+    width: 99%;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: rgb(55, 0, 255);
+    border-radius: 15px;
+}
+.submit-btn:hover{
+    background-color: white;
+    transition: .5s ease;
+    color: black;
+    box-shadow: 0px 0px 20px rgb(136, 136, 136);
+    
+    
+}
+.container {
+    margin-top: 15px;
+}
+
+.container h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 15px;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 5px black solid;
+}
+.row{
+    display:flex;
+    margin: 50px;
+    justify-content: space-around;
+    
+}
+.row img{
+    border-radius: 15px;
+
+}
+.row h4{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.col1 img{
+    
+    transition: 1s ease;
+
+}
+.col1 img:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+    box-shadow: 0px 0px 30px rgb(128, 128, 128);
+
+}
+.col2 img{
+    
+    transition: 1s ease;
+
+}
+.col2 img:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+    box-shadow: 0px 0px 30px rgb(128, 128, 128);
+
+}.col3 img{
+    
+    transition: 1s ease;
+
+}
+.col3 img:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+    box-shadow: 0px 0px 30px rgb(128, 128, 128);
+
+}.col4 img{
+    
+    transition: 1s ease;
+
+}
+.col4 img:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+    box-shadow: 0px 0px 30px rgb(128, 128, 128);
+
+}
+@media only screen and (min-width: 768px) {
+    .taxi-booking-form {
+        width: 30%;
+        position: absolute;
+        left: 10%;
+        top: 30%;
+    }
+}
+.images{
+    background: url("images/carrent.jpg");
+    height: 530px;
+    width: 800px;
+    background-size: cover;
+
+}
+.box1{
+    display: flex;
+    justify-content: center;
+}

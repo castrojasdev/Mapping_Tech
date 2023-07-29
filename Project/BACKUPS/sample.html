@@ -1,0 +1,775 @@
+<i class="fas fa-car">
+    <p class = "h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste eius ducimus, enim temporibus porro quis aliquam reprehenderit veritatis sint!</p>
+  
+    
+  
+    </i>
+    <i class="fas fa-hotel">
+    <p class = "h">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto dolore natus dolor quas doloribus illum ipsam aut harum quasi doloremque.</p>
+  
+    </i>
+  
+
+
+
+    
+    <div class = "ali">
+        <table>
+          <tr class = "tt">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, adipisci?
+  
+          </tr>
+        </table>
+    
+    </div>
+
+
+    .button, .go{
+
+      margin: -460px 0 0 625px;
+      display: flex;
+      transition: none;
+    }
+    
+    
+    .zoom
+    {
+      display: flex;
+      flex-direction: column;
+      margin: 0 -100% 0 0;
+      align-items: flex-end;
+    }
+
+<!---------------------------------------------------------------------------------------->
+    <div class="zoom">
+      <div class="button1 zin">
+         <div class="icon1">
+            <i class="fas fa-solid fa-cloud-moon-rain fa-2x"></i>
+         </div>
+         
+      </div>
+   
+      <div class="button1 zout">
+         <div class="icon1">
+            <i class="fas fa-solid fa-cloud-moon-rain fa-2x "></i>
+         </div>
+        
+      </div>
+    
+.zoom{
+
+  margin: 0px 0 0 0%;
+  display: flex;
+  flex-direction: column;
+  position:static;
+}
+.zoom .button1{
+display: flex;
+height: 48px;
+width: 58px;
+float: right;
+margin: 0 5px;
+margin-bottom: 12px;
+
+
+overflow: hidden;
+background: #fff;
+border-radius: 50px;
+cursor: pointer;
+box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+
+}
+.zoom  .button1 .icon1{
+display: flex;
+height: 53px;
+  width: 56px;
+text-align: center;
+border-radius: 50px;
+box-sizing: border-box;
+line-height: 60px;
+
+
+<div class="form-row">
+  <label>
+      <span>Email</span>
+      <input type="email" name="email">
+  </label>
+</div>
+
+
+
+<div class="form-row">
+  <label>
+      <span>Textarea</span>
+      <textarea name="textarea"></textarea>
+  </label>
+</div>
+
+
+<div class="form-row">
+  <label>
+      <span>Full name</span>
+      <input type="text" name="name">
+  </label>
+</div>
+<div class="form-row">
+  <label>
+      <span>Full name</span>
+      <input type="text" name="name">
+  </label>
+</div>
+<div class="form-row">
+  <label>
+      <span>Full name3</span>
+      <input type="text" name="name">
+  </label>
+</div>
+
+
+
+<div class="form-row">
+  <label>
+      <span>Checkbox</span>
+      <input type="checkbox" name="checkbox" checked>
+  </label>
+</div>
+
+<div class="form-row">
+  <label><span>Radio</span></label>
+  <div class="form-radio-buttons">
+
+      <div>
+          <label>
+              <input type="radio" name="radio">
+              <span>Radio option 1</span>
+          </label>
+      </div>
+
+      <div>
+          <label>
+              <input type="radio" name="radio">
+              <span>Radio option 2</span>
+          </label>
+      </div>
+
+      <div>
+          <label>
+              <input type="radio" name="radio">
+              <span>Radio option 3</span>
+          </label>
+      </div>
+
+  </div>
+</div>
+
+
+
+
+index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Basic Form</title>
+
+	<link rel="stylesheet" href="assets/demo.css">
+	<link rel="stylesheet" href="assets/form-basic.css">
+
+    
+
+</head>
+
+
+	<header>
+		<h1>Eligibility Checking System</h1>
+    </header>
+
+   
+
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-basic.css -->
+
+        <form class="form-basic" method="post" action="#">
+
+            <div class="form-title-row">
+                <h1>Calculation</h1>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Qualification</span>
+                    <select id="select1" name ="dropdown" onchange="setForm(this.value)">
+                        <option value="form1">10th pass</option>
+                        <option value="form2">12th pass</option>
+                        
+                    </select>
+                </label>
+            </div>
+            <div class="form-row">
+                <label>
+                    <span>Year of passed</span>
+                    <select id="selectElementId" name="dropdown">
+                        <script>
+                            var min = 2012,
+                            max = 2021,
+                            select = document.getElementById('selectElementId');
+                        
+                            for (var i = min; i<=max; i++){
+                               var opt = document.createElement('option');
+                               opt.value = i;
+                               opt.innerHTML = i;
+                               select.appendChild(opt);
+                            }
+                            function setForm(value) {
+
+if(value == 'form1'){
+            document.getElementById('form1').style='display:block;';
+            document.getElementById('form2').style='display:none;';
+            document.getElementById('form3').style='display:none;';
+            document.getElementById('form4').style='display:none;';
+            document.getElementById('form5').style='display:none;';
+            document.getElementById('form6').style='display:none;';
+            document.getElementById('none').style='display:none;';
+        }
+        else {
+
+            document.getElementById('form2').style = 'display:block;';
+            document.getElementById('form1').style = 'display:none;';
+        }
+
+}
+function setForm1(value) {
+
+if(value == 'form3'){
+            document.getElementById('form3').style='display:block;';
+            document.getElementById('form4').style='display:none;';
+            document.getElementById('form5').style='display:none;';
+            document.getElementById('form6').style='display:none;';
+            document.getElementById('none').style='display:none;';
+        }
+        else if(value == 'form4'){
+
+            document.getElementById('form4').style = 'display:block;';
+            document.getElementById('form3').style='display:none;';
+            document.getElementById('form5').style='display:none;';
+            document.getElementById('form6').style='display:none;';
+            document.getElementById('none').style='display:none;';
+        }
+        else if(value == 'form5'){
+
+document.getElementById('form5').style = 'display:block;';
+document.getElementById('form3').style='display:none;';
+document.getElementById('form4').style='display:none;';
+document.getElementById('form6').style='display:none;';
+document.getElementById('none').style='display:none;';
+}
+else if(value == 'form6'){
+
+document.getElementById('form6').style = 'display:block;';
+document.getElementById('form5').style='display:none;';
+document.getElementById('form4').style='display:none;';
+document.getElementById('form3').style='display:none;';
+document.getElementById('none').style='display:none;';
+}
+else if(value == 'none')
+{
+document.getElementById('form6').style = 'display:none;';
+document.getElementById('form5').style='display:none;';
+document.getElementById('form4').style='display:none;';
+document.getElementById('form3').style='display:none;';
+document.getElementById('none').style='display:none;';
+}
+        
+
+}
+
+                        </script>
+                    </select>
+                </label>
+            </div>
+            <div id="form1">
+            <div class="form-row">
+                <label>
+                    <span>Scored Mark</span>
+                    <input type="text" name="name">
+                </label>
+            </div>
+            <div class="form-row">
+                <label>
+                    <span>Out of Mark</span>
+                    <input type="text" name="name">
+                </label>
+            </div>
+            </div>
+
+            <div  id="form2" style="display: none">
+                <div class="form-row">
+                    <label>
+                <span>Group</span>
+                <select id="select1" name ="dropdown" onchange="setForm1(this.value)">
+                    <option value="none">Enter the group</option>
+                    <option value="form3" >Engineering Cut-off</option>
+                    <option value="form4">Medical Cut-off(Maths Science)</option>
+                    <option value="form5">Medical Cut-off(pure Science)</option>
+                    <option value="form6">Agri Cut-off</option>
+                    
+                </select></label>
+               </div></div>
+               <div id="form3" style="display:none" >
+                <div class="form-row">
+                    <label>
+                        <span>Maths</span>
+                        <input type="text" name="name">
+                    </label>
+                  </div>
+                  <div class="form-row">
+                    <label>
+                        <span>Physics</span>
+                        <input type="text" name="name">
+                    </label>
+                  </div>
+                  <div class="form-row">
+                    <label>
+                        <span>Chemistry</span>
+                        <input type="text" name="name">
+                    </label>
+                  </div>
+               </div>
+
+               <div id="form4" style="display: none">
+                <div class="form-row">
+                    <label>
+                        <span>Biology </span>
+                        <input type="text" name="name">
+                    </label>
+                  </div>
+                  <div class="form-row">
+                    <label>
+                        <span>Physics </span>
+                        <input type="text" name="name">
+                    </label>
+                  </div>
+                  <div class="form-row">
+                    <label>
+                        <span>Chemistry</span>
+                        <input type="text" name="name">
+                    </label>
+                  </div>
+               </div>
+
+               <!--FORM5 and FORM6-->
+               <div id="form5" style="display: none">
+                <div class="form-row">
+                    <label>
+                        <span>Botany</span>
+                        <input type="text" name="name">
+                    </label>
+                  </div>
+                  <div class="form-row">
+                    <label>
+                        <span>Zoology</span>
+                        <input type="text" name="name">
+                    </label>
+                  </div>
+                  <div class="form-row">
+                    <label>
+                        <span>Physics</span>
+                        <input type="text" name="name">
+                    </label></div>
+                    
+                    <div class="form-row">
+                        <label>
+                            <span>Chemistry</span>
+                            <input type="text" name="name">
+                        </label>
+                  </div>
+               </div>
+               <!------------------->
+               <div id="form6" style="display: none">
+                <div class="form-row">
+                    <label>
+                        <span>Biology</span>
+                        <input type="text" name="name">
+                    </label>
+                  </div>
+                  <div class="form-row">
+                    <label>
+                        <span>Maths</span>
+                        <input type="text" name="name">
+                    </label>
+                  </div>
+                  <div class="form-row">
+                    <label>
+                        <span>Physics</span>
+                        <input type="text" name="name">
+                    </label></div>
+                    <div class="form-row">
+                        <label>
+                            <span>Chemistry</span>
+                            <input type="text" name="name">
+                        </label>
+                  </div>
+               </div>
+           
+            <div class="form-row">
+                <button type="submit">Submit Form</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+body {
+    max-width:960px;
+      margin:0 auto
+  }
+  .border-right {
+      border-right: thin solid #F5F5F5
+  }
+  .m-b-20 {
+      margin: 0 0 20px 0;
+  }
+  .m-b-30 {
+      margin: 0 0 30px 0;
+  }
+  .m-b-60 {
+      margin: 0 0 30px 0;
+  }
+  .category-row ul {
+      list-style: none;
+  }
+  .category-row li a {
+      font-style: normal;
+  }
+  .category-row ul li {
+      margin-left: 0;
+  }
+  .category-row a > img {
+      margin: 0 0 30px 0;
+  }
+  .category-row a > img:hover {
+      opacity: 0.54;
+      filter: alpha(opacity=54); /* For IE8 and earlier */
+  }
+  .category-link-sm {
+      color: #2196F3;
+      font-size: 12px;
+  }
+  .category-link {
+      color: #2196F3;
+  }
+  .ga-arrow-right {
+      position: relative;
+      top: .3em;
+  }
+  .hero {
+      background: linear-gradient( rgba(0, 0, 0, .75), rgba(0, 0, 0, .5) ), url('http://s7d2.scene7.com/is/image/Watscocom/baker_landing_20161212_rheem-destination-unknown-04?scl=1&qlt=90,1&resMode=sharp2&op_usm=1.75,0.3,2,0') no-repeat;
+      background-size: cover;
+      background-color: #000000;
+      text-shadow: 1px 2px 3px #000000;
+      position: relative;
+      padding: 30px 30px 0 30px;
+  }
+  .hero p > img {
+      display: inline;
+      padding: 10px
+  }
+  .inverse {
+      color: white
+  }
+  .inverse a {
+      color: white
+  }
+  #fantasyTable {
+      width: 100%;
+      border-collapse: collapse;
+  }
+  #fantasyTable th {
+      background: #D6D6D6;
+      font-size: .75rem;
+      font-weight: 400;
+      color: #474443;
+      border-bottom: solid thin #C1C1C1;
+      border-right: solid thin #C1C1C1;
+      border-top: solid thin #D6D6D6;
+      border-left: solid thin #D6D6D6;
+  }
+  #fantasyTable td {
+      padding: 4px 8px;
+      font-size: .75rem;
+      font-weight: 400;
+      color: #474443;
+      border-bottom: solid thin #C1C1C1;
+      border-right: solid thin #C1C1C1;
+      border-top: solid thin #D6D6D6;
+      border-left: solid thin #D6D6D6;
+  }
+  #fantasyTable tr {
+  }
+  /*controls odd rows*/
+  #fantasyTable tr:nth-child(odd) {
+      background: #FFFFFF;
+      border-bottom: solid thin #C1C1C1;
+      border-right: solid thin #C1C1C1;
+      border-top: solid thin #D6D6D6;
+      border-left: solid thin #D6D6D6;
+  }
+  /*controls even rows*/
+  #fantasyTable tr:nth-child(even) {
+      background: #FFFFFF;
+      border-bottom: solid thin #C1C1C1;
+      border-right: solid thin #C1C1C1;
+      border-top: solid thin #D6D6D6;
+      border-left: solid thin #D6D6D6;
+  }
+  /*controls column 1*/
+  #fantasyTable td:nth-child(1) {
+      background: #FFFFFF;
+      color: #0082D6;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-align: center;
+      border-left: solid 1px #FFFFFF;
+  }
+  /*controls column 1 header*/
+  #fantasyTable th:nth-child(1) {
+      text-align: center;
+      border-left: solid 1px #FFFFFF;
+  }
+  /*controls column 2*/
+  #fantasyTable td:nth-child(2) {
+      text-transform: uppercase;
+  }
+  /*controls column 5*/
+  #fantasyTable td:nth-child(5) {
+      background: #EDEDED;
+      text-align: left;
+      color: #0082D6;
+      font-weight: 700;
+  }
+  /*controls column head 5*/
+  #fantasyTable th:nth-child(5) {
+      background: #D6D6D6;
+      text-align: left;
+  }
+  /*controls column 6*/
+  #fantasyTable td:nth-child(6) {
+      background: #EDEDED;
+      color: #0082D6;
+      text-align: left;
+      font-weight: 700;
+  }
+  /*controls column head 6*/
+  #fantasyTable th:nth-child(6) {
+      background: #D6D6D6;
+      text-align: left;
+  }
+  .pointsTable {
+  }
+  .pointLeader img {
+      float: left;
+      padding-right: 20px;
+      font-weight: 900;
+  }
+  .pointLeader p {
+      font-size: .75rem;
+      text-align: left
+  }
+  .pointLeader h4 {
+      font-weight: 900;
+      text-align: left
+  }
+  .align-center {
+      text-align: center
+  }
+  .learnMore {
+      padding: 0 0 0 10px
+  }
+  .md-label {
+      background: #BABABA
+  }
+  .md-label-orange {
+      background: #f78d2c;
+      padding: 0.3rem 0.5rem;
+      border-radius: 0;
+      color: white
+  }
+  .md-caps {
+      text-transform: uppercase
+  }
+  .card {
+      border: solid thin #F5F5F5;
+      padding: 2rem 1rem;
+  }
+  .callout {
+      border: solid thin #F5F5F5;
+      background-color: #D6D6D6;
+      border-radius: 5px;
+      padding: .5rem;
+      width: auto;
+  }
+  .md-black {
+      font-weight: 900;
+  }
+  .linethrough {
+      text-align: center;
+      position: relative;
+      z-index: 1;
+  }
+  .linethrough:before {
+      border-top: 2px solid #dfdfdf;
+      content: "";
+      margin: 0 auto; /* this centers the line to the full width specified */
+      position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+      top: 15px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
+  }
+  .linethrough span {
+      /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+      background: #FFFFFF;
+      padding: 0 15px;
+  }
+  .max-width-50 {
+      max-width: 50%
+  }
+  /*controls responsive button for opening hidden columns*/
+  table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
+      background-color: #0d82fb;
+      border: none;
+    font-size:12px
+  }
+  /* give space between search bar and table */
+  .dataTables_filter {
+      margin-bottom: 20px
+  }
+  
+  @media screen and (max-width: 39.9375em) {
+  /* give space between search bar and table */
+  .dataTables_filter {
+      display: none !important
+  }
+  }
+  
+
+  <!----------------------------------------------------------->
+<div id="map" style="width: 100%; height: 400px; position: relative;"
+    class="shadow leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom"
+    tabindex="0">
+    <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);">
+        <div class="leaflet-pane leaflet-tile-pane">
+            <div class="leaflet-layer " style="z-index: 1; opacity: 1;">
+                <div class="leaflet-tile-container leaflet-zoom-animated"
+                    style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" role="presentation"
+                        src="https://a.tile.openstreetmap.org/10/738/474.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(339px, 18px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://c.tile.openstreetmap.org/10/738/473.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(339px, -238px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://c.tile.openstreetmap.org/10/737/474.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(83px, 18px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://b.tile.openstreetmap.org/10/739/474.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(595px, 18px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://b.tile.openstreetmap.org/10/738/475.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(339px, 274px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://b.tile.openstreetmap.org/10/737/473.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(83px, -238px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://a.tile.openstreetmap.org/10/739/473.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(595px, -238px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://a.tile.openstreetmap.org/10/737/475.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(83px, 274px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://c.tile.openstreetmap.org/10/739/475.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(595px, 274px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://b.tile.openstreetmap.org/10/736/474.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(-173px, 18px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://c.tile.openstreetmap.org/10/740/474.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(851px, 18px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://a.tile.openstreetmap.org/10/736/473.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(-173px, -238px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://b.tile.openstreetmap.org/10/740/473.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(851px, -238px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://c.tile.openstreetmap.org/10/736/475.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(-173px, 274px, 0px); opacity: 1;"><img
+                        alt="" role="presentation" src="https://a.tile.openstreetmap.org/10/740/475.png?bar"
+                        class="leaflet-tile leaflet-tile-loaded"
+                        style="width: 256px; height: 256px; transform: translate3d(851px, 274px, 0px); opacity: 1;">
+                </div>
+            </div>
+        </div>
+        <div class="leaflet-pane leaflet-shadow-pane"><img
+                src="https://unpkg.com/leaflet@1.3.3/dist/images/marker-shadow.png"
+                class="leaflet-marker-shadow leaflet-zoom-animated" alt=""
+                style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; transform: translate3d(884px, 144px, 0px);"><img
+                src="https://unpkg.com/leaflet@1.3.3/dist/images/marker-shadow.png"
+                class="leaflet-marker-shadow leaflet-zoom-animated" alt=""
+                style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; transform: translate3d(105px, 256px, 0px);">
+        </div>
+        <div class="leaflet-pane leaflet-overlay-pane"><svg pointer-events="none" class="leaflet-zoom-animated"
+                width="1188" height="480" viewBox="-99 -40 1188 480" style="transform: translate3d(-99px, -40px, 0px);">
+                <g>
+                    <path class="leaflet-interactive" stroke="red" stroke-opacity="0.4" stroke-width="4"
+                        stroke-linecap="round" stroke-linejoin="round" fill="none" d="M884 144L681 172L105 256"></path>
+                </g>
+            </svg></div>
+        <div class="leaflet-pane leaflet-marker-pane"><img
+                src="https://unpkg.com/leaflet@1.3.3/dist/images/marker-icon-2x.png"
+                class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0"
+                style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(884px, 144px, 0px); z-index: 144;"><img
+                src="https://unpkg.com/leaflet@1.3.3/dist/images/marker-icon-2x.png"
+                class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0"
+                style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(105px, 256px, 0px); z-index: 256;">
+        </div>
+        <div class="leaflet-pane leaflet-tooltip-pane"></div>
+        <div class="leaflet-pane leaflet-popup-pane"></div>
+        <div class="leaflet-proxy leaflet-zoom-animated"
+            style="transform: translate3d(189084px, 121526px, 0px) scale(512);"></div>
+    </div>
+    <div class="leaflet-control-container">
+        <div class="leaflet-top leaflet-left">
+            <div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#"
+                    title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="#"
+                    title="Zoom out" role="button" aria-label="Zoom out">−</a></div>
+        </div>
+        <div class="leaflet-top leaflet-right"></div>
+        <div class="leaflet-bottom leaflet-left"></div>
+        <div class="leaflet-bottom leaflet-right">
+            <div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com"
+                    title="A JS library for interactive maps">Leaflet</a> | © <a
+                    href="https://www.openstreetmap.org/copyright">OpenStreetMap</a></div>
+        </div>
+    </div>
+</div>
+<!-----------------------------------------------------------------0-->
+In these present days, We will use the google map to knew the locations and directions where you want to go.But sometimes while you are travel at that time,someone wants to know the current location or Our relative wants to know your location.At that moment ,you will see your mobile and search your location. In google Map there are lot of places,villages ,etc... They are confusing you .In these Web-application,we knew the nearest location and easily identify the current location. 
+
+https://www.youtube.com/watch?v=3posLKQrhfU

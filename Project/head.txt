@@ -1,0 +1,16 @@
+p.h{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 74px 12px 0px -300px;
+    width: 1000px;
+ 
+  }
+  p.hh{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+    width: 1000px;
+ 
+  }

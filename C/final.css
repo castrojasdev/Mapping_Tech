@@ -1,0 +1,127 @@
+
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    
+}
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+.heading h1{
+    font-size: 200px;
+    color: white;
+    letter-spacing: 5px;
+
+}
+.heading p{
+    font-size: 30px;
+    color: rgb(206, 206, 206);
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.img1{
+    height: 900px;
+    width: 1000px;
+    background-image: url("map6.png");
+    background-size: cover
+}
+.point1{
+    text-align: center;
+    transform: translateY(50%);
+    width: 800px;
+    height: 400px;
+    margin: 80px 32px 0  57px;
+    /* margin: -57px; */
+    padding: 1px;
+}
+.point1 h1{
+    font-size: 80px;
+    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.point1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(189, 189, 189);
+
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.img2{
+    height: 674px;
+    width: 824px;
+    background-image: url("map4.png");
+    background-size: cover;
+    padding-right: 300px;
+    margin-right: 50px;
+}
+.point2{
+    text-align: center;
+    transform: translateY(10%);
+    width: 700px;
+    height: 500px;
+ 
+    margin: 42px 0 0 -14px;
+    padding-right: 114px;
+}
+.point2 h1{
+    font-size: 80px;
+    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.point2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(189, 189, 189);
+
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+
+}
+.img3{
+    height: 674px;
+    width: 824px;
+    height: 674px;
+    width: 824 px;
+    background-image: url("map3 .png");
+    background-size: cover;
+    margin: 0 -396px 27px 0;
+    
+}
+.point3{
+    text-align: center;
+    margin-top: 250px;
+    width: 700px;
+    height: 300px;
+    margin: 133px 36px 0 -283px;
+}
+.point3 h1{
+    font-size: 80px;
+    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.point3 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(189, 189, 189);
+
+}
