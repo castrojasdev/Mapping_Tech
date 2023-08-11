@@ -14,8 +14,7 @@
 
 ![](Aspose.Words.167163e6-7421-4951-9592-90d871e79fd2.002.png)![](Aspose.Words.167163e6-7421-4951-9592-90d871e79fd2.003.png)
 
-![](Aspose.Words.167163e6-7421-4951-9592-90d871e79fd2.004.png)![](Aspose.Words.167163e6-7421-4951-9592-90d871e79fd2.005.png)
-
+![](Aspose.Words.167163e6-7421-4951-9592-90d871e79fd2.004.png)
 **Sign-Up\_Page**
 
 ![](Aspose.Words.167163e6-7421-4951-9592-90d871e79fd2.006.png)
